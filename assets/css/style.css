@@ -3116,11 +3116,13 @@ footer .bottom_bar p span{
     transform: scaleY(0);
     transform-origin: top;
     transition: .5s;
+    height: 0;
 }
 #place_order_section .container .to_order_inpu.active .ans{ 
     line-height: 28px;
     padding: 12px 40px 12px 20px;
     transform: scaleY(1);
+    height: 100%;
 }
 
 #place_order_section .container .inpu_p p{

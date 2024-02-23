@@ -998,8 +998,8 @@
     #checkout_inpormation{
         margin-top: 80px;
     }
-    #checkout_inpormation .row .col-xl-6 h3{
-        font-size: 25px;
+    #checkout_inpormation .row .col-xl-6 h3 {
+        font-size: 22px;
     }
     #checkout_inpormation .row .col-xl-6 form label textarea{
         height: 149px;
@@ -1804,7 +1804,7 @@
         padding: 15px 20px;
     }
     #checkout_inpormation .row .col-xl-6:first-child {
-        padding: 0;
+        padding: 0 12px;
     }
     #checkout_inpormation .row .col-xl-6 h3{
         font-size: 23px;
@@ -1841,6 +1841,10 @@
     #place_order_section .container .to_order_inpu .ans{
         font-size: 13px;
         margin-top: 2px;
+    }
+    #place_order_section .container .to_order_inpu.active .ques button{
+
+        font-size: 14px;
     }
     #place_order_section .container .to_order_inpu .ques button{
         width: 14px;
@@ -2991,6 +2995,129 @@
         margin-top: 16px;
     }
     /* <!-- Cart Total sectoin ending --> */
+    /* ============checkout page starting============ */
+    /* -------------------------------------------------- */
+    /* checkout inpormation section starting  */
+    #checkout_inpormation {
+        margin-top: 70px; 
+    }
+    
+    #checkout_inpormation .woocommerce-form-coupon {
+        margin-bottom: 20px;
+    }
+    
+    #checkout_inpormation .coupon {
+        padding: 10px ;
+    }
+    #checkout_inpormation .woocommerce-form-coupon form{
+        padding: 12px;
+    }
+    #checkout_inpormation .woocommerce-form-coupon form input {
+        padding: 10px 15px;
+        font-size: 17px; 
+        margin-bottom: 12px;
+    }
+    #checkout_inpormation .woocommerce-form-coupon form a{
+        transform: scale(.8);
+        transform-origin: left top;
+    }
+    #checkout_inpormation .coupon p {
+        font-size: 12px; 
+    }
+
+    #checkout_inpormation .row .col-xl-6:first-child {
+        padding: 0 12px;
+    }
+    
+    #checkout_inpormation .row .col-xl-6 h3 {
+        font-size: 20px;
+        line-height: 20px;
+        padding-left: 2px;
+    }
+    #checkout_inpormation .row .col-xl-6 div.d-flex  {
+        flex-wrap: wrap;
+    }
+    #checkout_inpormation .row .col-xl-6 form label input,
+    #checkout_inpormation .row .col-xl-6 form label select{
+        height: 42px;
+        padding: 10px 15px;
+    }
+    #checkout_inpormation .row .col-md-5 {
+        margin-top: 40px;
+    }
+    
+    #checkout_inpormation .row .col-md-5 h3 {
+        margin-bottom: -10px;
+    }
+    
+    #checkout_inpormation .row .col-xl-6 form label textarea {
+        min-height:70px ;
+        max-height:100px ;
+    }
+    
+    /* checkout inpormation section ending  */
+    /* <!-- Product checkout section starting --> */
+    #product_card_section .container .checkout_product {
+        margin-top: -55px;
+    }
+    
+    #product_card_section .container .checkout_product h3 {
+        font-size: 22px;
+        margin-bottom: 2px;
+    }
+    
+    #product_card_section .container .add_card_contaier table tr td:nth-child(2) {
+        font-size: 18px;
+    }
+    
+    /* <!-- Product checkout section ending --> */
+    /* <!-- Place Order section starting --> */
+    #place_order_section .container {
+        margin-top: -266px;
+        margin-bottom: 50px;
+    }
+
+    #place_order_section .container .to_order_inpu {
+        padding-top: 10px;
+        height: 35px;
+        transition: .5s;
+    }
+    #place_order_section .container .to_order_inpu.active{
+        height: 100% !important;
+
+    }
+    #place_order_section .container .to_order_inpu .ques {
+        font-size: 15px;
+    }
+    #place_order_section .container .to_order_inpu.active .ques button {
+
+        font-size: 13px;
+    }
+    #place_order_section .container .to_order_inpu .ans {
+        font-size: 11px;
+        margin-top: 1px;
+        line-height: 17px !important;
+        padding: 12px 12px 13px 20px !important;
+    }
+    #place_order_section .container .inpu_p p {
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 25px;
+    }
+    #place_order_section .container .to_order_inpu .ques button {
+        width: 13px; 
+        height: 13px;
+        margin-right: 4px;
+        border-radius: 2px;
+    }
+    
+    #place_order_section .container .to_order_inpu_btn a {
+        transform: scale(.7);
+        transform-origin: left;
+    }
+    
+    /* <!-- Place Order section ending --> */
+    /* ============checkout page ending============ */
     /* extra section starting */
         /* email logn from starting */
     #email_logn_from .from_container{
