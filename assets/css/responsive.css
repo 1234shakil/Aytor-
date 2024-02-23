@@ -1023,7 +1023,44 @@
     }
     /* <!-- Place Order section ending --> */
 /* ============checkout page ending============ */
-    /* extra section starting */
+/* ============wishlist page starting============ */
+/* -------------------------------------------------  */
+    #wishlist_section table{
+        width: 995px;
+    }
+    #wishlist_section table tr td h2 {
+        font-size: 15px;
+    }
+    #wishlist_section table tr td:nth-child(1) {
+        width: 6%;
+    }
+
+    #wishlist_section table tr td:nth-child(2) {
+        width: 35%;
+    }
+
+    #wishlist_section table tr td:nth-child(2) h3 {
+        /* margin: 0 10px; */
+        margin-left: 10px;
+        text-align: center !important; 
+    }
+
+    #wishlist_section table tr td:nth-child(3) {
+        width: 10%;
+    }
+
+    #wishlist_section table tr td:nth-child(4) {
+        width: 12%;
+    }
+
+/* ============wishlist page ending============ */
+/* ============404 page starting============ */
+/* -------------------------------------------*/
+    #not_found_404 {
+        height: 569px;
+    }
+/* ============404 page ending============ */
+/* extra section starting */
         /* email logn from starting */
         #email_logn_from .from_container{
             min-height: 430px;
@@ -1857,6 +1894,51 @@
     }
     /* <!-- Place Order section ending --> */
 /* ============checkout page ending============ */
+/* ============wishlist page starting============ */
+/* -------------------------------------------------  */
+    #wishlist_section {
+        margin: 70px 0 -260px;
+    }
+    #wishlist_section table {
+        width: 995px !important;
+        transform: scale(.5159);
+        transform-origin: left top;
+    }
+
+    #wishlist_section table tr td h2 {
+        font-size: 15px;
+    }
+
+    #wishlist_section table tr td:nth-child(1) {
+        width: 6%;
+    }
+
+    #wishlist_section table tr td:nth-child(2) {
+        width: 35%;
+    }
+
+    #wishlist_section table tr td:nth-child(2) h3 {
+        /* margin: 0 10px; */
+        margin-left: 10px;
+        text-align: center !important;
+    }
+
+    #wishlist_section table tr td:nth-child(3) {
+        width: 10%;
+    }
+
+    #wishlist_section table tr td:nth-child(4) {
+        width: 12%;
+    }
+
+/* ============wishlist page ending============ */
+/* ============404 page starting============ */
+/* -------------------------------------------*/
+    #not_found_404 {
+        height: 400px;
+    }
+
+/* ============404 page ending============ */
      /* extra section starting */
         /* email logn from starting */
         #email_logn_from .from_container{
@@ -3117,7 +3199,52 @@
     }
     
     /* <!-- Place Order section ending --> */
-    /* ============checkout page ending============ */
+    /* ============checkout page ending============ *//* ============wishlist page starting============ */
+    /* -------------------------------------------------  */
+    #wishlist_section {
+        margin: 50px 0 -390px;
+    }
+    
+    #wishlist_section table {
+        width: 995px !important;
+        transform: scale(.2959);
+        transform-origin: left top;
+    }
+    
+    #wishlist_section table tr td h2 {
+        font-size: 15px;
+    }
+    
+    #wishlist_section table tr td:nth-child(1) {
+        width: 6%;
+    }
+    
+    #wishlist_section table tr td:nth-child(2) {
+        width: 35%;
+    }
+    
+    #wishlist_section table tr td:nth-child(2) h3 {
+        /* margin: 0 10px; */
+        margin-left: 10px;
+        text-align: center !important;
+    }
+    
+    #wishlist_section table tr td:nth-child(3) {
+        width: 10%;
+    }
+    
+    #wishlist_section table tr td:nth-child(4) {
+        width: 12%;
+    }
+    
+    /* ============wishlist page ending============ */
+    /* ============404 page starting============ */
+    /* -------------------------------------------*/
+    #not_found_404 {
+        height: 400px;
+    }
+    
+    /* ============404 page ending============ */
     /* extra section starting */
         /* email logn from starting */
     #email_logn_from .from_container{

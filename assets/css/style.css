@@ -3821,6 +3821,9 @@ footer .bottom_bar p span{
     background-color: var(--primary-light);
     margin: 40px 0 120px;
 }
+#not_found_404 .container .not_found_container a{
+    margin-left: 5px;
+}
 /* <!-- not found 404 section ending --> */
 /* ============404 page ending============ */ 
 
