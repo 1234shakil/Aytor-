@@ -238,36 +238,36 @@ $(document).ready(()=>{
                 'fromZero':false
             });
         }; 
-        $(window).scroll(()=>{
-            let on_scroll_veluo = $(window).scrollTop(); 
-            console.log( $(window).scrollTop());
-            if(on_scroll_veluo > 830){
-                $(".about_section_conut").numScroll({
-                    number:22.3,
-                    'time': 4000,
-                    'symbol':true,
-                    'fromZero':false
-                });
-                $(".about_section_conut1").numScroll({
-                    number:14.6,
-                    'time': 4000,
-                    'symbol':true,
-                    'fromZero':false  
-                });
-                $(".about_section_conut2").numScroll({
-                    number:75.9,
-                    'time': 4000,
-                    'symbol':true,
-                    'fromZero':false
-                });
-                $(".about_section_conut3").numScroll({
-                    number:35.5,
-                    'time': 4000,
-                    'symbol':true,
-                    'fromZero':false
-                });
-            }; 
-         });
+        // $(window).scroll(()=>{
+        //     let on_scroll_veluo = $(window).scrollTop(); 
+        //     console.log( $(window).scrollTop());
+        //     if(on_scroll_veluo > 830){
+        //         $(".about_section_conut").numScroll({
+        //             number:22.3,
+        //             'time': 4000,
+        //             'symbol':true,
+        //             'fromZero':false
+        //         });
+        //         $(".about_section_conut1").numScroll({
+        //             number:14.6,
+        //             'time': 4000,
+        //             'symbol':true,
+        //             'fromZero':false  
+        //         });
+        //         $(".about_section_conut2").numScroll({
+        //             number:75.9,
+        //             'time': 4000,
+        //             'symbol':true,
+        //             'fromZero':false
+        //         });
+        //         $(".about_section_conut3").numScroll({
+        //             number:35.5,
+        //             'time': 4000,
+        //             'symbol':true,
+        //             'fromZero':false
+        //         });
+        //     }; 
+        //  });
         
     // Archivement section ending
     // Team section starting
@@ -393,7 +393,7 @@ $(document).ready(()=>{
                 breakpoint:575,
                 settings: {
                     slidesToShow:1,
-                    arrows: true
+                    arrows: false
                 }
             }
         ]
@@ -435,6 +435,14 @@ $(document).ready(()=>{
         slidesToScroll: 1, 
         prevArrow: '<i class="fa-solid fa-chevron-right slide_arrows"></i>',    
         nextArrow: '<i class="fa-solid fa-chevron-left slide_arrows"></i>',
+        responsive:[ 
+            {
+                breakpoint:767,
+                settings: {
+                    arrows: false
+                }
+            }
+        ]
     });
     // Blog section ending 
 /* ============blog page ending============ */
