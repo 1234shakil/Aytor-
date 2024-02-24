@@ -1,3 +1,6 @@
+let a = window.screenX
+console.log(a)
+
 
 let oldscroll = window.pageYOffset;
 window.addEventListener('scroll',()=>{

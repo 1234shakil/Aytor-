@@ -2790,6 +2790,7 @@ footer .bottom_bar p span{
 #product_card_section .container .add_card_contaier table{
     width: 100%;
     border-color: #E0E0E0;
+    transform: scale(1) !important;
 }
 #product_card_section .container .add_card_contaier table tr:first-child{
     border: none;
@@ -2901,6 +2902,7 @@ footer .bottom_bar p span{
     /* <!-- Cart Total sectoin starting */
 #cart_total_scetion{
     margin-bottom: 100px;
+    margin-top: 0 !important;
 }
 #cart_total_scetion .container h2{
     font-size: 24px;
@@ -3069,12 +3071,13 @@ footer .bottom_bar p span{
     /* Product checkout section ending */
     /* Place Order section starting */
 #place_order_section .container{
-    margin-top: -40px;
+    margin-top: -40px !important;
     margin-bottom: 100px;
 }
 #place_order_section .container .to_order_inpu{
     padding-top: 15px; 
     cursor: pointer;
+    transition: 1.5s;
 }  
 #place_order_section .container .to_order_inpu .ques{
     font-size: 20px;
@@ -3707,6 +3710,7 @@ footer .bottom_bar p span{
 #wishlist_section table{
     border: none; 
     border: 1px solid #E0E0E0;
+    transform: scale(1) !important;
 }
 #wishlist_section table tr{
     border: none;
@@ -3836,6 +3840,9 @@ footer .bottom_bar p span{
     background: rgba(0,0,0,.3);
     z-index: 99999999;
 }
+#email_logn_from .row{
+    margin: 0;
+}
 #email_logn_from .from_container{ 
     position: relative;
     background:  url(./../img/bg_img/popup-banner-1.png) , var(--primary-light);
@@ -3874,6 +3881,7 @@ footer .bottom_bar p span{
     display: block;
     margin: 0 auto;
     color: var(--light-color)   ;
+    margin: 0 10px
 }
 #email_logn_from .from_container #email{
     background: var(--Comon-Colot, #FFF);

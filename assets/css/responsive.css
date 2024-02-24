@@ -932,7 +932,7 @@
     /* ============blog_details page ending============ */ 
     /* ============compare page starting============ */
     /* -------------------------------------------------- */
-    #compare_products .compare_products_comtainre .table_overflow_control{
+    .table_overflow_control{
         overflow: scroll;
     }
     #compare_products .compare_products_comtainre table{
@@ -1765,7 +1765,7 @@
     #compare_products{
         margin: 80px 0;
     }
-    #compare_products .compare_products_comtainre .table_overflow_control{
+    .table_overflow_control{
         overflow: scroll;
     }
     #compare_products .compare_products_comtainre table{
@@ -1858,7 +1858,7 @@
     /* checkout inpormation section ending  */
     /* <!-- Product checkout section starting --> */
     #product_card_section .container .checkout_product {
-        margin-top: -40px;
+        margin-top: -20px;
     }
     #product_card_section .container .checkout_product h3 {
         font-size: 27px;
@@ -1897,7 +1897,7 @@
 /* ============wishlist page starting============ */
 /* -------------------------------------------------  */
     #wishlist_section {
-        margin: 70px 0 -260px;
+        margin: 70px 0 ;
     }
     #wishlist_section table {
         width: 995px !important;
@@ -1941,10 +1941,10 @@
 /* ============404 page ending============ */
      /* extra section starting */
         /* email logn from starting */
-        #email_logn_from .from_container{
-            min-height: 450px;
-            width: 500px; 
-         }
+        #email_logn_from .from_container {
+            min-height:88%;
+            width: 90%; 
+        }
          #email_logn_from .from_container #email{
             width: 400px;
          }
@@ -2270,7 +2270,7 @@
  /* ------------------------------------------------ */
     /* <!-- subBanner section starting --> */
     #subBanner .container{
-        height: 150px;
+        height: 200px;
     }
     #subBanner .container h1{
         font-size: 27px;
@@ -2997,7 +2997,7 @@
     #compare_products{
         margin: 50px 0;
     }
-    #compare_products .compare_products_comtainre .table_overflow_control{
+    .table_overflow_control{
         overflow: scroll;
     }
     #compare_products .compare_products_comtainre table{
@@ -3140,7 +3140,7 @@
     /* checkout inpormation section ending  */
     /* <!-- Product checkout section starting --> */
     #product_card_section .container .checkout_product {
-        margin-top: -55px;
+        margin-top: -15px;
     }
     
     #product_card_section .container .checkout_product h3 {
@@ -3202,7 +3202,7 @@
     /* ============checkout page ending============ *//* ============wishlist page starting============ */
     /* -------------------------------------------------  */
     #wishlist_section {
-        margin: 50px 0 -390px;
+        margin: 50px 0 ;
     }
     
     #wishlist_section table {
@@ -3247,12 +3247,17 @@
     /* ============404 page ending============ */
     /* extra section starting */
         /* email logn from starting */
-    #email_logn_from .from_container{
-        min-height: 400px;
-        width: 300px; 
+    #email_logn_from .from_container {
+        min-height: 65%;
+        width: 87%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 110px;
     }
     #email_logn_from .from_container #email{
-        width: 250px;
+       width: 80%;
         margin: 0;
         font-size: 15px;
     }
@@ -3263,8 +3268,8 @@
     }
     #email_logn_from .from_container p{
         width: fit-content;
-        font-size: 13px;
-        line-height: 18px; 
+        font-size: 16px;
+        line-height: 20px; 
     }
     #email_logn_from .from_container form{
         margin: 20px 0; 
@@ -3273,9 +3278,9 @@
         padding:10px 15px ;
         margin: 10px auto 0; 
         font-size: 14px;
+        width: 50%;
     }
     #email_logn_from .from_container .check_box input{
-        width: 13px;
         margin-right: 4px;
     }
     #email_logn_from .from_container .check_box label{
