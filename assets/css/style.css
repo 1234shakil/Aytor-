@@ -470,7 +470,7 @@ nav .container .menubar button:hover{
     position:absolute ;
     z-index: 2;
     inset: 0;
-    opacity: 0;
+    opacity: 0; 
     transition: .5s;
 }
 #New_Arrivals .container .crad_main_box .item_box:hover .img_box .img_hover{
@@ -1156,6 +1156,9 @@ nav .container .menubar button:hover{
   margin-bottom: 10px;  
   position: relative;
 }
+#latest_news .container .latest_news_main_box .news_box .news_img_box img{
+    width: 100%;
+}
 #latest_news .container .latest_news_main_box .news_box .news_img_box::after{
     content: '';
     position: absolute;
@@ -1279,6 +1282,9 @@ nav .container .menubar button:hover{
 footer{
      /* background-color: rgba(0,0,0,1); */
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(./../img/bg_img/footer_bg_1.jpg);
+}
+footer.index_footer .container{
+    padding-top: 160px !important;
 }
 footer .container{
     padding: 150px 0 80px;
@@ -2125,6 +2131,7 @@ footer .bottom_bar p span{
 #products_setion .product_container .product_box .product_img_box img,
 .rleted_products_slide_container .product_box .product_img_box img{
     transition: .5s;
+    width: 100% !important;
 }
 #products_setion .product_container .product_box:hover .product_img_box img,
 .rleted_products_slide_container .product_box:hover .product_img_box img{

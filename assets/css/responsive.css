@@ -68,7 +68,7 @@
         font-size: 16px;
      }
      #latest_news .container .promotion_box .promotion_item .item_inpu p{
-        font-size: 12px;
+        font-size: 13px;
      }
      #latest_news .container .promotion_box .promotion_item .item_inpu p ins{
         font-size: 14px;
@@ -634,6 +634,9 @@
     #team_section .container h3 {
         font-size: 27px;
     }
+    #team_section .container .team_slid_box{
+        margin: 0 20px 60px;
+    }
     #team_section .container .team_slid_box .team_inpu_box h4 {
         font-size: 18px; 
         margin: 16px 0 0px;
@@ -1057,13 +1060,13 @@
 /* ============404 page starting============ */
 /* -------------------------------------------*/
     #not_found_404 {
-        height: 569px;
+        height: 570px;
     }
 /* ============404 page ending============ */
 /* extra section starting */
         /* email logn from starting */
         #email_logn_from .from_container{
-            min-height: 430px;
+            min-height: 480px;
             width: 700px; 
          }
          #email_logn_from .from_container #email{
@@ -1437,7 +1440,13 @@
     #products_setion .container .product_filter .old_new_filter {
         width: 200px;
         overflow: hidden;
-    }  
+    } 
+    #products_setion .product_container .col-xl-12 .product_box .product_img_box{
+        padding: 0 80px;
+    }
+    #products_setion .product_container .col-xl-12 .product_box .product_img_box img{
+        height: 100% !important;
+    }
     #products_setion .product_container .col-xl-12 .product_box .product_inpu_box h4 {
         font-size: 20px;
     }
@@ -1935,7 +1944,7 @@
 /* ============404 page starting============ */
 /* -------------------------------------------*/
     #not_found_404 {
-        height: 400px;
+        height: 500px;
     }
 
 /* ============404 page ending============ */
@@ -1943,7 +1952,8 @@
         /* email logn from starting */
         #email_logn_from .from_container {
             min-height:88%;
-            width: 90%; 
+            width: 90%;
+            padding: 130px 0;
         }
          #email_logn_from .from_container #email{
             width: 400px;
@@ -1954,8 +1964,9 @@
          }
          #email_logn_from .from_container p{
             width: fit-content;
-            font-size: 15px;
-            line-height: 22px; 
+            font-size: 17px;
+            line-height: 24px; 
+            margin: 0 16px;
          }
          #email_logn_from .from_container form{
             margin: 20px;
@@ -2036,7 +2047,7 @@
     #Features_section .container .Features_box .img{
         margin-bottom: 10px;
         overflow: hidden;
-        height: 185px;
+        height: 200px;
     }
     #Features_section .container .Features_box .img .overly h4{
         font-size: 20px;
@@ -2047,8 +2058,29 @@
     }
     /* <!-- Features section ending --> */
     /* New Arrivals section starting */
+    .container h3  {
+        font-size: 22px !important;
+    }
+    #New_Arrivals .container .crad_main_box .item_box{
+        margin: 0 25px;
+    }
+    #New_Arrivals .container .crad_main_box .item_box .img_box{
+        padding: 0 40px;
+        height: 290px;
+        background-color: #F1F3F4;
+     }
+    #New_Arrivals .container .crad_main_box .item_box .img_box .img_hover{
+        top: 0;
+        left: 40px;
+        right: 40px;
+        bottom: 0;
+    } 
+    #New_Arrivals .container .crad_main_box .item_box .img_box img
+    {
+        min-width: 10% !important;
+    }
     #New_Arrivals .container h2{
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 700;
         line-height: 46px; 
     }
@@ -2077,7 +2109,7 @@
         line-height: 35px;
     }
     #discount_section .discount_bos p{
-        font-size: 12px; 
+        font-size: 13px; 
         line-height: 22px;
     }
     /* discount section ending */ 
@@ -2091,7 +2123,7 @@
         transform: scale(.75);
     }
     #best_seller_products .container .padding_box{
-        padding:0 30px ;
+        padding:0 45px ;
     }
     /* Best Seller Products section ending*/
      /* offer section starting */
@@ -2152,15 +2184,15 @@
         line-height: 15px;
     }
     #special_offer_section .container .special_offer_main_box .special_offer_inpu h3{
-        font-size: 16px;
+        font-size: 16px !important;
         line-height: 20px;
         width: 300px;
     }
     #special_offer_section .container .special_offer_main_box .special_offer_inpu p{
         margin-bottom: 15px;
-        width: 300px;
-        line-height: 20px;
-        font-size: 11px;
+        width: 100%;
+        line-height: 22px;
+        font-size: 13px;
     }
     #special_offer_section .container .special_offer_main_box .special_offer_video .img_box{
         bottom: 100%;
@@ -2185,7 +2217,7 @@
         font-size: 17px; 
     }
     #latest_news .container .latest_news_main_box .news_box .news_inpu_box p{
-        font-size: 14px;
+        font-size: 15px;
     }
     #latest_news .container .promotion_box {
         padding: 11px 20px ;
@@ -2472,9 +2504,13 @@
         padding: 10px;
         flex-wrap: wrap;
         margin: 0 0 30px;
-    }  
+        width: 100% !important;
+    } 
+    #products_setion .product_container .col-xl-12 .product_box .product_img_box {
+        padding: 0 45px;
+    }
     #products_setion .product_container .col-xl-12 .product_box .product_img_box img {
-        height: 250px;
+        height: 100%;
         transform: scale(.9);
     }
     #products_setion .product_container .col-xl-12 .product_box .product_inpu_box h4 {
@@ -2642,7 +2678,10 @@
     }
     #description_information_section .container p{
         line-height: 22px;
-        text-align: justify;
+        text-align: center;
+    }
+    #description_information_section .container p:first-child{
+        margin-bottom: 22px;
     }
     /* <!-- Comment section starting --> */
     #description_information_section .container #shop_details_comment .comment_box .comment_img_box img{
@@ -2650,10 +2689,9 @@
     }
     #description_information_section .container #shop_details_comment .comment_box .comment_inpu_box p{
         font-size: 12px;
-        line-height: 17px;
+        line-height: 20px;
         margin-bottom: 5px;
-        text-align: justify;
-        width: 200px;
+        text-align: justify; 
     }
     #description_information_section .container #shop_details_comment .comment_box .comment_inpu_box p:first-child{
         font-size: 8px;
@@ -2705,17 +2743,23 @@
         padding: 20px;
     }
     #rleted_products_section .container h2 {
-        font-size: 26px;
+        font-size: 22px;
     }
     #New_Arrivals .container .crad_main_box .item_box .img_box ul, #products_setion .product_container .product_box .product_img_box ul, .rleted_products_slide_container .product_box .product_img_box ul {
-        transform: scale(.8);
+        transform: scale(.9);
         transform-origin: top right;
     }
-    .rleted_products_slide_container .product_box .product_inpu_box h6 {
-        font-size: 15px;
+    #rleted_products_section .rleted_products_slide_container .product_box{
+        margin: 0 20px;
     }
-
+    .rleted_products_slide_container .product_box .product_inpu_box h6 {
+        font-size: 20px;
+    }
+    .rleted_products_slide_container .product_box .product_inpu_box {
+        font-size: 17px;
+    }
     /* <!-- Releted Products section ending --> */
+    
     /* ============shop_details page ending============ */
     
     /* ============contact page starting============ */ 
@@ -2809,7 +2853,7 @@
     }
    
     #blog_section .col-xl-9 .blog_item_container .last_blog_img_box {
-        height: 180px;
+        height: 235px;
     }
     #blog_section .col-xl-9 .blog_item_container .blog_inpu_box, .col-xl-9 .blog_item_container .blog_inpu_box {
         padding: 20px 10px 15px;
@@ -2857,6 +2901,11 @@
     .col-xl-3 .blog_name_container {
         margin: 20px 0;
     }
+    .col-xl-3 .blog_name_container h3,
+    .Recent_Posts h3,
+    .tags h3{
+        font-size: 20px !important;
+    }
     .col-xl-3 .blog_name_container h3,  .tags h3{
         margin-bottom: 20px;
     }
@@ -2888,10 +2937,10 @@
     #blog_Details_section .col-xl-9 .blog_details_tags_and_icon a{
         margin: 6px 0;
     }
-    #blog_Details_section .col-xl-9 .quote{
-        padding: 15px 15px 35px 20px;
-        font-size: 15px;
-        line-height: 25px;
+    #blog_Details_section .col-xl-9 .quote {
+        padding: 15px  15px 45px 20px;
+        font-size: 14px;
+        line-height: 22px;
     }
     #blog_Details_section .col-xl-9 .paragraph_inpu {
         text-align: left;
@@ -3243,7 +3292,16 @@
     #not_found_404 {
         height: 400px;
     }
-    
+    #not_found_404 .container .not_found_container h2 {
+        font-size: 22px;
+    }
+    #not_found_404 .container .not_found_container p {
+        width: 365px;
+        font-size: 15px;
+    }
+    #not_found_404 .container .not_found_container a{
+        margin-top: 25px;
+    }
     /* ============404 page ending============ */
     /* extra section starting */
         /* email logn from starting */
@@ -3268,7 +3326,7 @@
     }
     #email_logn_from .from_container p{
         width: fit-content;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px; 
     }
     #email_logn_from .from_container form{
