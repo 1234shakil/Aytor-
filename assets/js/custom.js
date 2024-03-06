@@ -1,5 +1,5 @@
-let a = window.screenX
-console.log(a)
+// let a = window.screenX
+// console.log(a)
 
 
 let oldscroll = window.pageYOffset;
@@ -243,7 +243,7 @@ $(document).ready(()=>{
         }; 
         $(window).scroll(()=>{
             let on_scroll_veluo = $(window).scrollTop(); 
-            console.log( $(window).scrollTop());
+            // console.log( $(window).scrollTop());
             if(on_scroll_veluo > 830){
                 $(".about_section_conut").numScroll({
                     number:22.3,

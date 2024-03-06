@@ -2130,8 +2130,13 @@
      #offer_section .container h3 {
         font-size: 23px;
     }
+    #offer_section .container .offer_main_box{
+        margin: 0 6px 100px;
+        padding: 75px 15px 86px;
+    }
     #offer_section .container .offer_main_box .offer_box{
         height: 280px;
+        margin: 0;
     }
     #offer_section .container .offer_main_box .offer_box h5{
         font-size: 12px;
@@ -2184,9 +2189,9 @@
         line-height: 15px;
     }
     #special_offer_section .container .special_offer_main_box .special_offer_inpu h3{
-        font-size: 16px !important;
-        line-height: 20px;
-        width: 300px;
+        font-size: 20px !important;
+        line-height: 29px;
+        width: 100%;
     }
     #special_offer_section .container .special_offer_main_box .special_offer_inpu p{
         margin-bottom: 15px;
@@ -2589,8 +2594,15 @@
     #product_details_section .container .product_details_img_container ul{
         top: 150px;
     }
+    /* *{
+        outline: 1px solid red;
+    } */
+    #product_details_section .container .product_details_img_container ul li{ 
+        width: 100% !important;
+    }
     #product_details_section .container .product_details_img_container ul li button {
-        transform: scale(.5);
+        transform: scale(.5) translateX(-50%);
+        transform-origin: left;
     }
     #product_details_section .container .product_details_inpu h3 {
         margin-top: 50px;
@@ -2872,8 +2884,8 @@
     }
     #blog_section .col-xl-9 .blog_item_container .blog_inpu_box h2, 
     .col-xl-9 .blog_item_container .blog_inpu_box h2 {
-        font-size: 12px;
-        margin: 0  0 5px
+        font-size: 20px;
+        margin: 0px 0 5px
     }
     #blog_section .col-xl-9 .blog_item_container .blog_inpu_box p,
      .col-xl-9 .blog_item_container .blog_inpu_box p {
@@ -3172,6 +3184,8 @@
     #checkout_inpormation .row .col-xl-6 form label select{
         height: 42px;
         padding: 10px 15px;
+        border: none;
+        border: 1px solid #e9e9e9;
     }
     #checkout_inpormation .row .col-md-5 {
         margin-top: 40px;
@@ -3184,6 +3198,8 @@
     #checkout_inpormation .row .col-xl-6 form label textarea {
         min-height:70px ;
         max-height:100px ;
+        border: none;
+        border: 1px solid #e9e9e9;
     }
     
     /* checkout inpormation section ending  */
