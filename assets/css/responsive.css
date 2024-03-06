@@ -1469,7 +1469,7 @@
         transform-origin: left top;
     }
     #products_setion .swtch_page{
-        transform: scale(.8);
+        transform: scale(.9);
         transform-origin: bottom;
     }
     
@@ -2548,7 +2548,7 @@
         transform-origin: left top;
     }
     #products_setion .swtch_page{
-        transform: scale(.7);
+        transform: scale(.9);
         transform-origin: bottom;
     }
     
@@ -2601,6 +2601,8 @@
         width: 100% !important;
     }
     #product_details_section .container .product_details_img_container ul li button {
+        /* width: 300px;
+        height: 300px; */
         transform: scale(.5) translateX(-50%);
         transform-origin: left;
     }
@@ -2697,7 +2699,7 @@
     }
     /* <!-- Comment section starting --> */
     #description_information_section .container #shop_details_comment .comment_box .comment_img_box img{
-        width: 50px;
+        width: 68px;
     }
     #description_information_section .container #shop_details_comment .comment_box .comment_inpu_box p{
         font-size: 12px;
