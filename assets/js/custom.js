@@ -466,5 +466,25 @@ $(document).ready(()=>{
         });
 // porduct count js ending
 
+// aos plugin starting
+// AOS.init();
 
+// Text Animation section--------------------
+
+// const element = document.querySelector('#discount_section_h3');
+// const effect = new TypeIt(element, {
+//   strings: "This very long effect will be cancelled as soon as the user clicks in it!"
+// });
+
+// element.addEventListener('focus', () => {
+//   effect.reset();
+// });
+
+// element.addEventListener('blur', (e) => {
+//    if(!e.target.value.length) {
+//       effect.go();   
+//    }
+// });
+
+// effect.go();
 

@@ -219,6 +219,7 @@ nav .container .menubar button:hover{
 #banner_section .banner_siled_item{
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     color: var(--light-color);
     height: 700px;
 }
@@ -587,6 +588,7 @@ nav .container .menubar button:hover{
     background-size: cover;
     color: var(--light-color);
     position: relative;
+    background-attachment: fixed;
 }
 #discount_section .container{
     height: 100%;
@@ -1431,6 +1433,7 @@ footer .bottom_bar p span{
 #subBanner{
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 #subBanner .container{
     height: 400px;
@@ -3888,7 +3891,7 @@ footer .bottom_bar p span{
     display: block;
     margin: 0 auto;
     color: var(--light-color)   ;
-    margin: 0 10px
+    padding: 0 10px;
 }
 #email_logn_from .from_container #email{
     background: var(--Comon-Colot, #FFF);
